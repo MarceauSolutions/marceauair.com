@@ -1090,7 +1090,13 @@
         </div>
       </div>
 
-      <form class="quote-form reveal" id="quoteForm" action="https://appointments.marceauair.com/request-service" method="POST">
+      <!-- Service requests paused 2026-10-06. To resume: delete this notice and remove hidden + display:none from #quoteForm. -->
+      <div class="quote-form reveal" id="requestsPaused">
+        <h3>Service requests are paused</h3>
+        <p>Marceau Air isn't taking new service requests right now. Thank you for thinking of us.</p>
+        <p>If you need air conditioning service today, please contact a licensed local HVAC contractor.</p>
+      </div>
+      <form class="quote-form reveal" id="quoteForm" action="https://appointments.marceauair.com/request-service" method="POST" hidden style="display:none;">
         <h3>Request a free quote</h3>
         <p>We'll get back to you within a few hours during business hours.</p>
 
